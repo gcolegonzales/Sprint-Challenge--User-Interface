@@ -90,6 +90,11 @@ p {
     text-decoration: none;
 }
 
+.nav-top-content a:hover {
+    background-color: blanchedalmond;
+    color: gray;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -106,6 +111,10 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     padding-bottom: 20px;
+}
+
+.top-content .text-container {
+    margin-top: 20px;
 }
 
 .top-content-about .text-container {
@@ -206,4 +215,9 @@ footer nav {
 footer nav a {
     color: whitesmoke;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    background-color: white;
+    color: black;
 }
